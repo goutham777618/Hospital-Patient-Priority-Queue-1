@@ -1,1 +1,1 @@
-# Hospital-Patient-Priority-Queue-1
+I implemented a Hospital Patient Priority Queue using a Min-Heap in C. Each patient is assigned a priority number: 1 for Emergency, 2 for Urgent, and 3 for Routine. The Min-Heap ensures that patients with the lowest priority number are treated first. If two patients have the same priority, the patient who arrived earlier is treated first. In testing, P2 and P4 were treated first. When a new Emergency patient P7 was added, P7 was treated before all remaining patients.
